@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lloyd Williams Hauling & Logistics - Reliable Load Hauling</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apply Inter font family globally and ensure smooth scrolling */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Custom styles for sharp focus outline on buttons */
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.7); /* Tomato red with opacity */
+        }
+        /* Custom styles for full-width hero background image */
+        .hero-background {
+            background-image: url('https://picsum.photos/seed/trucking_highway/1920/1080'); /* Replace with a high-res truck/highway image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for text readability */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-black text-white py-5 px-6 md:px-16 flex justify-between items-center relative z-10">
+        <!-- Website Logo/Name -->
+        <a href="#" class="text-3xl font-extrabold text-white tracking-widest uppercase hover:text-orange-500 transition-colors">Williams Hauling</a>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="flex space-x-8">
+                <li><a href="#home" class="text-white hover:text-orange-500 font-semibold transition-colors uppercase">Home</a></li>
+                <li><a href="#about" class="text-white hover:text-orange-500 font-semibold transition-colors uppercase">About Lloyd</a></li>
+                <li><a href="#services" class="text-white hover:text-orange-500 font-semibold transition-colors uppercase">Services</a></li>
+                <li><a href="#contact" class="text-white hover:text-orange-500 font-semibold transition-colors uppercase">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="">
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-background min-h-[500px] flex items-center justify-center text-center relative py-20 px-4">
+            <div class="hero-overlay"></div>
+            <div class="relative z-10 text-white max-w-4xl mx-auto">
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight uppercase">Lloyd Williams: Direct, Dedicated, Dependable</h1>
+                <p class="text-xl md:text-2xl mb-12 max-w-2xl mx-auto opacity-90">
+                    Your trusted owner-operator for efficient and secure freight transportation across the region.
+                </p>
+                <a href="#contact" class="inline-block bg-orange-600 text-white px-12 py-4 text-xl font-bold uppercase tracking-wide
+                                    shadow-lg hover:bg-orange-700 transition-colors transform hover:scale-105">
+                    Get Your Free Quote
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="bg-white py-16 px-6 md:px-16">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center uppercase">About Lloyd Williams</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                    <div class="overflow-hidden shadow-xl">
+                        <!-- High-quality image for realism. Replace with Lloyd's actual photo or his truck. -->
+                        <img src="https://picsum.photos/seed/lloyd_portrait/800/600" alt="Lloyd Williams Portrait" class="w-full h-auto object-cover object-center">
+                    </div>
+                    <div>
+                        <p class="text-gray-700 leading-relaxed mb-6 text-lg">
+                            After 30 years behind the wheel as an owner-operator, I’ve traded the full grind for freedom—but I’m not done driving. Not yet.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed mb-6 text-lg">
+                            These days, I run select hauls on my own terms. No deadlines I don’t agree to. No dispatchers I don’t trust. I take the jobs I want, go where I want, and stay sharp doing the work I’ve always taken pride in—on time, no excuses, no hand-holding.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed text-lg">
+                            I built my name over decades: clean records, clean equipment, and clean handoffs. If I say I’ll be there, I will be. I don’t need the miles anymore. I just enjoy the road—and the people who still run it right. If we’ve worked together before, you know how I operate. If you haven’t—well, you’ll figure it out quick.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Services Section -->
+        <section id="services" class="bg-gray-900 text-white py-16 px-6 md:px-16">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-white mb-12 text-center uppercase">My Core Hauling Services</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service Card 1: Local Freight Hauling -->
+                    <div class="bg-gray-800 p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold text-orange-500 mb-4 uppercase">Local Freight Transport</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Efficient and reliable hauling for all types of freight within the local and regional areas.
+                        </p>
+                    </div>
+                    <!-- Service Card 2: Dedicated & Expedited -->
+                    <div class="bg-gray-800 p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold text-orange-500 mb-4 uppercase">Dedicated & Expedited</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Prioritized, time-sensitive deliveries with direct routes to meet your critical deadlines.
+                        </p>
+                    </div>
+                    <!-- Service Card 3: Flexible Scheduling -->
+                    <div class="bg-gray-800 p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold text-orange-500 mb-4 uppercase">Flexible Scheduling</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Customized pickup and delivery schedules designed to fit your unique logistical needs.
+                        </p>
+                    </div>
+                    <!-- Service Card 4: Specialized Load Handling -->
+                    <div class="bg-gray-800 p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold text-orange-500 mb-4 uppercase">Specialized Handling</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Expert care for specific cargo types, ensuring safe transport for unusual or delicate items.
+                        </p>
+                    </div>
+                     <!-- Service Card 5: Transparent Communication -->
+                    <div class="bg-gray-800 p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold text-orange-500 mb-4 uppercase">Transparent Communication</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Receive real-time updates and direct contact with me throughout the hauling process.
+                        </p>
+                    </div>
+                     <!-- Service Card 6: Secure Transportation -->
+                    <div class="bg-gray-800 p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <h3 class="text-2xl font-semibold text-orange-500 mb-4 uppercase">Secure Transportation</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Your cargo's safety is my priority, employing best practices for secure transit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white py-16 px-6 md:px-16">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center uppercase">Get a Quote or Connect with Lloyd</h2>
+                <div class="max-w-2xl mx-auto bg-gray-50 p-10 shadow-xl">
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2 uppercase tracking-wide">Your Name</label>
+                            <input type="text" id="name" name="name" class="block w-full p-3 border border-gray-300 bg-white shadow-sm focus:border-orange-500 focus:ring-orange-500" placeholder="Your Full Name" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2 uppercase tracking-wide">Email Address</label>
+                            <input type="email" id="email" name="email" class="block w-full p-3 border border-gray-300 bg-white shadow-sm focus:border-orange-500 focus:ring-orange-500" placeholder="your.email@example.com" required>
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2 uppercase tracking-wide">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" name="phone" class="block w-full p-3 border border-gray-300 bg-white shadow-sm focus:border-orange-500 focus:ring-orange-500" placeholder="(123) 456-7890">
+                        </div>
+                        <div>
+                            <label for="load_details" class="block text-sm font-medium text-gray-700 mb-2 uppercase tracking-wide">Load Details / Quote Request</label>
+                            <textarea id="load_details" name="load_details" rows="6" class="block w-full p-3 border border-gray-300 bg-white shadow-sm focus:border-orange-500 focus:ring-orange-500" placeholder="Please provide details about your load, pickup/delivery locations, and desired timeframe." required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-orange-600 text-white py-4 px-4 text-lg font-bold uppercase tracking-wide
+                                            shadow-lg hover:bg-orange-700 transition-colors transform hover:scale-105">
+                            Send My Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white py-10 px-4 md:px-16 text-center">
+        <p class="text-gray-400 mb-4">&copy; 2024 Williams Hauling & Logistics. All rights reserved.</p>
+        <div class="flex justify-center space-x-8 text-gray-500 font-semibold uppercase tracking-wide">
+            <a href="#" class="hover:text-orange-500 transition-colors">Privacy Policy</a>
+            <span class="text-gray-700">|</span>
+            <a href="#" class="hover:text-orange-500 transition-colors">Terms of Service</a>
+        </div>
+    </footer>
+
+</body>
+</html>
